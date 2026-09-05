@@ -1,0 +1,66 @@
+# --- MAUI / .NET ---
+bin/
+obj/
+*.dll
+*.exe
+*.appx
+*.appxupload
+*.appxrecipe
+*.msix
+*.msixbundle
+*.msixupload
+*.nupkg
+
+# --- Visual Studio ---
+.vs/
+*.user
+*.suo
+*.cache
+*.db
+*.opendb
+*.VC.db
+*.vsidx
+
+# --- Build Artifacts ---
+*.g.cs
+*.g.targets
+*.g.props
+*.editorconfig
+*.stamp
+*.cache
+*.tmp
+*.log
+
+# --- Platform-specific MAUI ---
+# Android
+**/Resources/**/*.png
+**/Resources/**/*.jpg
+**/Resources/**/*.xml
+*.apk
+*.aab
+
+# iOS / MacCatalyst
+*.plist
+*.xcprivacy
+*.xcworkspace/
+*.xcodeproj/
+*.ipa
+
+# Windows
+*.appxmanifest
+*.pri
+*.pdb
+
+# --- NuGet ---
+*.nuget.props
+*.nuget.targets
+project.assets.json
+project.nuget.cache
+
+# --- Rider / JetBrains ---
+.idea/
+*.iml
+
+# --- Misc ---
+*.DS_Store
+Thumbs.db
