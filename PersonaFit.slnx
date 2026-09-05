@@ -1,1 +1,8 @@
-<Solution />
+<Solution>
+  <Folder Name="/Solution Items/">
+    <File Path=".gitignore" />
+  </Folder>
+  <Project Path="PersonaFit.Core/PersonaFit.Core.csproj" Id="fc462cb2-02f6-40fc-b6f3-0a96c1d5b797">
+    <Deploy Solution="Debug|*" />
+  </Project>
+</Solution>

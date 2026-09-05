@@ -1,12 +1,37 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\jscot\\source\\repos\\PersonaFit\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FC462CB2-02F6-40FC-B6F3-0A96C1D5B797}|PersonaFit.Core\\PersonaFit.Core.csproj|c:\\users\\jscot\\source\\repos\\personafit\\personafit.core\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FC462CB2-02F6-40FC-B6F3-0A96C1D5B797}|PersonaFit.Core\\PersonaFit.Core.csproj|solutionrelative:personafit.core\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Home.razor",
+              "DocumentMoniker": "C:\\Users\\jscot\\source\\repos\\PersonaFit\\PersonaFit.Core\\Components\\Pages\\Home.razor",
+              "RelativeDocumentMoniker": "PersonaFit.Core\\Components\\Pages\\Home.razor",
+              "ToolTip": "C:\\Users\\jscot\\source\\repos\\PersonaFit\\PersonaFit.Core\\Components\\Pages\\Home.razor",
+              "RelativeToolTip": "PersonaFit.Core\\Components\\Pages\\Home.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-05T06:39:52.853Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
