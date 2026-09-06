@@ -1,0 +1,38 @@
+﻿@page "/login"
+@using PersonaFit.Auth.Dtos
+
+<div class="container">
+    <div class="row">
+        <div class="col-11 col-sm-4 mt-5 p-3 bg-warning mx-auto rounded border bg-opacity-10">
+            <h5 class="mb-3 text-center">Login</h5>
+            <EditForm Model="_model" OnInvalidSubmit="LoginAsync">
+
+                <DataAnnotationsValidator/>
+
+                <div class="mb-3">
+                    <InputText @bind-Value="_model.Username" class="form-control"></InputText>
+                    <ValidationMessage For="() => _model.Username" />
+                </div>
+
+                <div class="mb-3">
+                    <InputText @bind-Value="_model.Password" class="form-control"></InputText>
+                    <ValidationMessage For="() => _model.Password" />
+                </div>
+
+                <div>
+                    <button type="submit" class="btn btn-primary">Login</button>
+                </div>
+
+            </EditForm>
+        </div>
+    </div>
+</div>
+
+@code {
+    private LoginRequestDto _model { get; set; } = new();
+
+    private async Task LoginAsync()
+    {
+        
+    }
+}

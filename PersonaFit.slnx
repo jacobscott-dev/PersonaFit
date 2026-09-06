@@ -2,6 +2,8 @@
   <Folder Name="/Solution Items/">
     <File Path=".gitignore" />
   </Folder>
+  <Project Path="PersonaFit.AI/PersonaFit.AI.csproj" Id="76378ae2-2bfc-4777-8a37-849e76dc7b95" />
+  <Project Path="PersonaFit.Auth/PersonaFit.Auth.csproj" Id="79661ac0-543a-4713-8c89-fcea148a80f2" />
   <Project Path="PersonaFit.Core/PersonaFit.Core.csproj" Id="fc462cb2-02f6-40fc-b6f3-0a96c1d5b797">
     <Deploy Solution="Debug|*" />
   </Project>

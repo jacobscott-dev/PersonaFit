@@ -1,4 +1,6 @@
-﻿using Microsoft.Extensions.Logging;
+﻿using Microsoft.AspNetCore.Components.Authorization;
+using Microsoft.Extensions.Logging;
+using PersonaFit.Auth;
 
 namespace PersonaFit.Core
 {
@@ -20,6 +22,11 @@ namespace PersonaFit.Core
     		builder.Services.AddBlazorWebViewDeveloperTools();
     		builder.Logging.AddDebug();
 #endif
+            // auth
+            builder.Services.AddAuthorizationCore();
+            // register my services here
+            builder.Services.AddTransient<IAuthApi, MockAuthApi>();
+            builder.Services.AddSingleton<AuthenticationStateProvider, AppAuthStateProvider>();
 
             return builder.Build();
         }
