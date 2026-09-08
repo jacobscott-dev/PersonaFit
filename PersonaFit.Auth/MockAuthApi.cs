@@ -1,14 +1,11 @@
 ﻿using PersonaFit.Auth.Dtos;
+using PersonaFit.Auth.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
 namespace PersonaFit.Auth
 {
-    public interface IAuthApi
-    {
-        Task<LoginResponseDto> LoginAsync(LoginRequestDto request);
-    }
     public class MockAuthApi : IAuthApi
     {
         public async Task<LoginResponseDto> LoginAsync(LoginRequestDto request)

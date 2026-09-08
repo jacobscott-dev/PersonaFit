@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Components.Authorization;
 using Microsoft.Extensions.Logging;
 using PersonaFit.Auth;
+using PersonaFit.Auth.Interfaces;
 
 namespace PersonaFit.Core
 {
@@ -26,7 +27,9 @@ namespace PersonaFit.Core
             builder.Services.AddAuthorizationCore();
             // register my services here
             builder.Services.AddTransient<IAuthApi, MockAuthApi>();
-            builder.Services.AddSingleton<AuthenticationStateProvider, AppAuthStateProvider>();
+            builder.Services.AddSingleton<AppAuthStateProvider>();
+            builder.Services.AddScoped<IAuthenticationService, AuthenticationService>();
+            builder.Services.AddSingleton<AuthenticationStateProvider>(sp => sp.GetRequiredService<AppAuthStateProvider>());
 
             return builder.Build();
         }

@@ -10,7 +10,7 @@ namespace PersonaFit.Auth.Dtos
         public string Id { get; set; } = string.Empty;
         public string Name { get; set; } = string.Empty;
         public string Email { get; set; } = string.Empty;
-        public Claim[] ToClaimss => [
+        public Claim[] ToClaims() => [
             new Claim(ClaimTypes.NameIdentifier, Id),
             new Claim(ClaimTypes.Name, Name),
             new Claim(ClaimTypes.Email, Email),

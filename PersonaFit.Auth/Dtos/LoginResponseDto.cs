@@ -4,5 +4,7 @@ using System.Text;
 
 namespace PersonaFit.Auth.Dtos
 {
-    public record LoginResponseDto(LoggedInUser user, string token);
+    public record LoginResponseDto(LoggedInUser User, string Token);
+
+
 }

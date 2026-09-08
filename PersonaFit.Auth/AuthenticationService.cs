@@ -1,12 +1,8 @@
 ﻿using PersonaFit.Auth.Dtos;
+using PersonaFit.Auth.Interfaces;
 
 namespace PersonaFit.Auth
 {
-    public interface IAuthenticationService
-    {
-        Task<LoginResponseDto> LoginAsync(LoginRequestDto request);
-        Task LogoutAsync();
-    }
     public class AuthenticationService : IAuthenticationService
     {
         private IAuthApi _api { get; set; }

@@ -1,11 +1,20 @@
 ﻿@page "/login"
 @using PersonaFit.Auth.Dtos
+<h1>Login Page</h1>
+<AuthorizeView>
+    <Authorizing>Checking Auth State</Authorizing>
+    <NotAuthorized>Not Authorized</NotAuthorized>
+    <Authorized>
+        User is Authorized
+        Name: @context.User.Identity.Name
+    </Authorized>
+</AuthorizeView>
 
 <div class="container">
     <div class="row">
         <div class="col-11 col-sm-4 mt-5 p-3 bg-warning mx-auto rounded border bg-opacity-10">
             <h5 class="mb-3 text-center">Login</h5>
-            <EditForm Model="_model" OnInvalidSubmit="LoginAsync">
+            <EditForm Model="_model" OnValidSubmit="LoginAsync">
 
                 <DataAnnotationsValidator/>
 
@@ -28,11 +37,4 @@
     </div>
 </div>
 
-@code {
-    private LoginRequestDto _model { get; set; } = new();
 
-    private async Task LoginAsync()
-    {
-        
-    }
-}
