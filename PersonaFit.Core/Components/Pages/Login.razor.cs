@@ -15,7 +15,7 @@ namespace PersonaFit.Core.Components.Pages
         private async Task LoginAsync()
         {
             var loginResponse = await AuthenticationService.LoginAsync(_model);
-            AppAuthStateProvider.LoginAsync(loginResponse);
+            AppAuthStateProvider.Login(loginResponse);
             NavigationManager.NavigateTo("/", replace: true);
         }
     }

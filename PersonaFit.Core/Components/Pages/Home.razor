@@ -1,15 +1,19 @@
 ﻿@page "/"
 
 <h1>Personafit</h1>
-
-<button @onclick="NavigateToLogin">Login</button>
-
 <AuthorizeView>
     <Authorizing>Checking Auth State</Authorizing>
-    <NotAuthorized>Not Authorized</NotAuthorized>
+    <NotAuthorized>
+        
+        Not Authorized
+        <button @onclick="NavigateToLogin">Login</button>
+        
+    </NotAuthorized>
     <Authorized>
         User is Authorized
         Name: @context.User.Identity.Name
+
+        <button @onclick="Logout">Logout</button>
     </Authorized>
 </AuthorizeView>
 
