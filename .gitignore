@@ -12,6 +12,8 @@ obj/
 *.nupkg
 
 # --- Visual Studio ---
+.sln/
+DocumentLayout.json
 .vs/
 *.user
 *.suo
