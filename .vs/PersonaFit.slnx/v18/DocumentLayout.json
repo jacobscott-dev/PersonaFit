@@ -76,10 +76,26 @@
               "RelativeDocumentMoniker": "PersonaFit.Core\\Components\\Pages\\Home.razor",
               "ToolTip": "C:\\Users\\jscot\\source\\repos\\PersonaFit\\PersonaFit.Core\\Components\\Pages\\Home.razor",
               "RelativeToolTip": "PersonaFit.Core\\Components\\Pages\\Home.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAlAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-09-06T17:25:41.983Z",
-              "IsPinned": true,
+              "IsPinned": true
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AppAuthStateProvider.cs",
+              "DocumentMoniker": "C:\\Users\\jscot\\source\\repos\\PersonaFit\\PersonaFit.Auth\\AppAuthStateProvider.cs",
+              "RelativeDocumentMoniker": "PersonaFit.Auth\\AppAuthStateProvider.cs",
+              "ToolTip": "C:\\Users\\jscot\\source\\repos\\PersonaFit\\PersonaFit.Auth\\AppAuthStateProvider.cs",
+              "RelativeToolTip": "PersonaFit.Auth\\AppAuthStateProvider.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-07T20:46:35.486Z",
               "EditorCaption": ""
             },
             {
@@ -90,23 +106,9 @@
               "RelativeDocumentMoniker": "PersonaFit.Core\\Components\\Pages\\Login.razor.cs",
               "ToolTip": "C:\\Users\\jscot\\source\\repos\\PersonaFit\\PersonaFit.Core\\Components\\Pages\\Login.razor.cs",
               "RelativeToolTip": "PersonaFit.Core\\Components\\Pages\\Login.razor.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAUwBEAAAAmAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAUwBEAAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-13T16:38:30.501Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AppAuthStateProvider.cs",
-              "DocumentMoniker": "C:\\Users\\jscot\\source\\repos\\PersonaFit\\PersonaFit.Auth\\AppAuthStateProvider.cs",
-              "RelativeDocumentMoniker": "PersonaFit.Auth\\AppAuthStateProvider.cs",
-              "ToolTip": "C:\\Users\\jscot\\source\\repos\\PersonaFit\\PersonaFit.Auth\\AppAuthStateProvider.cs",
-              "RelativeToolTip": "PersonaFit.Auth\\AppAuthStateProvider.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAAAEAAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-07T20:46:35.486Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-07T20:43:05.246Z"
             },
             {
               "$type": "Document",
@@ -118,8 +120,7 @@
               "RelativeToolTip": "PersonaFit.Auth\\Dtos\\LoginResponseDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwAYAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-07T20:52:59.369Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-07T20:52:59.369Z"
             },
             {
               "$type": "Document",
@@ -129,10 +130,9 @@
               "RelativeDocumentMoniker": "PersonaFit.Auth\\Dtos\\LoggedInUser.cs",
               "ToolTip": "C:\\Users\\jscot\\source\\repos\\PersonaFit\\PersonaFit.Auth\\Dtos\\LoggedInUser.cs",
               "RelativeToolTip": "PersonaFit.Auth\\Dtos\\LoggedInUser.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAAAAwAAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAAAQAAAAAAAAAAIBJwAwAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-07T20:50:29.242Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-07T20:50:29.242Z"
             },
             {
               "$type": "Document",
@@ -142,10 +142,9 @@
               "RelativeDocumentMoniker": "PersonaFit.Auth\\PersonaFit.Auth.csproj",
               "ToolTip": "C:\\Users\\jscot\\source\\repos\\PersonaFit\\PersonaFit.Auth\\PersonaFit.Auth.csproj",
               "RelativeToolTip": "PersonaFit.Auth\\PersonaFit.Auth.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAADAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-09-13T16:27:16.554Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-13T18:00:18.483Z"
             },
             {
               "$type": "Document",
@@ -155,10 +154,9 @@
               "RelativeDocumentMoniker": "PersonaFit.Core\\Components\\Pages\\Home.razor.cs",
               "ToolTip": "C:\\Users\\jscot\\source\\repos\\PersonaFit\\PersonaFit.Core\\Components\\Pages\\Home.razor.cs",
               "RelativeToolTip": "PersonaFit.Core\\Components\\Pages\\Home.razor.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-13T15:50:26.474Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-08T19:28:56.28Z"
             },
             {
               "$type": "Document",
@@ -170,8 +168,7 @@
               "RelativeToolTip": "PersonaFit.Core\\Components\\_Imports.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-09-06T17:43:47.776Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-06T17:43:47.776Z"
             },
             {
               "$type": "Document",
@@ -181,10 +178,9 @@
               "RelativeDocumentMoniker": "PersonaFit.Auth\\AuthenticationService.cs",
               "ToolTip": "C:\\Users\\jscot\\source\\repos\\PersonaFit\\PersonaFit.Auth\\AuthenticationService.cs",
               "RelativeToolTip": "PersonaFit.Auth\\AuthenticationService.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABEAAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAIBQwBEAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-08T19:52:41.677Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-08T19:52:41.677Z"
             },
             {
               "$type": "Document",
@@ -196,8 +192,7 @@
               "RelativeToolTip": "PersonaFit.Core\\MauiProgram.cs",
               "ViewState": "AgIAAAEAAAAAAAAAAAAjwA8AAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-05T19:48:13.746Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-05T19:48:13.746Z"
             },
             {
               "$type": "Document",
@@ -209,8 +204,7 @@
               "RelativeToolTip": "PersonaFit.Core\\Components\\Pages\\NotFound.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-09-08T19:49:52.187Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-08T19:49:52.187Z"
             },
             {
               "$type": "Document",
@@ -220,10 +214,9 @@
               "RelativeDocumentMoniker": "PersonaFit.Core\\Components\\Pages\\Login.razor",
               "ToolTip": "C:\\Users\\jscot\\source\\repos\\PersonaFit\\PersonaFit.Core\\Components\\Pages\\Login.razor",
               "RelativeToolTip": "PersonaFit.Core\\Components\\Pages\\Login.razor",
-              "ViewState": "AgIAABMAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABEAAAAAAAAAAABBwBMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-09-07T20:41:21.608Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-07T20:41:21.608Z"
             },
             {
               "$type": "Document",
@@ -235,8 +228,7 @@
               "RelativeToolTip": "PersonaFit.Core\\wwwroot\\index.html",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2026-09-07T20:20:35.021Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-07T20:20:35.021Z"
             },
             {
               "$type": "Document",
@@ -248,8 +240,7 @@
               "RelativeToolTip": "PersonaFit.Core\\Components\\Routes.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-09-06T17:42:49.151Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-06T17:42:49.151Z"
             }
           ]
         }
