@@ -7,19 +7,25 @@ namespace PersonaFit.Auth.Dtos
 {
     public class LoggedInUser
     {
+        // The precise claim type URI for Azure AD's Object ID (oid)
+        private const string AzureObjectIdClaimType = "http://microsoft.com";
+
         public string Id { get; set; } = string.Empty;
         public string Name { get; set; } = string.Empty;
         public string Email { get; set; } = string.Empty;
+
         public Claim[] ToClaims() => [
-            new Claim(ClaimTypes.NameIdentifier, Id),
+            new Claim(AzureObjectIdClaimType, Id), // Use Azure OID
             new Claim(ClaimTypes.Name, Name),
-            new Claim(ClaimTypes.Email, Email),
+            new Claim(ClaimTypes.Email, Email)
         ];
+
         public LoggedInUser() { }
+
         public LoggedInUser(string id, string name, string email)
         {
             Id = id;
-            Name = name;
+            Name = name; // DisplayName
             Email = email;
         }
 
@@ -27,7 +33,7 @@ namespace PersonaFit.Auth.Dtos
         {
             if (principal.Identity?.IsAuthenticated == true)
             {
-                var id = principal.FindFirst(ClaimTypes.NameIdentifier)!.Value;
+                var id = principal.FindFirst(AzureObjectIdClaimType)!.Value; // Use Azure OID
                 var name = principal.FindFirst(ClaimTypes.Name)!.Value;
                 var email = principal.FindFirst(ClaimTypes.Email)!.Value;
 
